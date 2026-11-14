@@ -1,6 +1,6 @@
 # Fra trampolinhul til walipini
 
-Projektplan · version 0.2 · 11. november 2026
+Projektplan · version 0.3 · 14. november 2026
 
 ## Idéen
 
@@ -17,10 +17,63 @@ Projektet skal undersøge, hvor meget det eksisterende hul faktisk kan genbruges
 - Eksisterende trampolinhul er oplyst til cirka 4,20 m i diameter og cirka 75 cm dybt i midten, med skålformet bund.
 - Bunden ønskes gravet ud, så den bliver plan. Arbejdsgrundlaget er en færdig bund cirka 75 cm under terræn; bundopbygning og dræn kan kræve yderligere udgravning.
 - Udtrykket skal være enkelt. Den første konceptillustration i `concepts/walipini-rund-koncept-01.png` blev vurderet som for avanceret og er ikke det valgte design.
-- Materialevalget er åbent. Armerede, betonfyldte fundablokke er det foreløbige forslag til den jordholdende væg; dimensionering er ikke fastlagt.
+- Materialevalget er åbent. Buede siloblokke, brøndsten og almindelige fundablokke undersøges til den jordholdende væg; ingen løsning er dimensioneret eller valgt til indkøb.
 - Trappe, dræn og overbygning udvikles inden for dette udgangspunkt. En indgang, der udvider fodaftrykket, skal medregnes særskilt i arealafklaringen.
 
 Målet med diameteren er at holde det cirkulære fodaftryk under 10 m². BBR- og tilladelsesforhold for den nedsænkede konstruktion er fortsat uafklarede.
+
+## Brugerens mockup — udgangspunkt for formen
+
+![Brugerens mockup med rund blokvæg, adgangsåbning, træstolper og radiale tagspær](concepts/walipini-bruger-mockup-01.png)
+
+Mockuppen erstatter den første, mere avancerede illustration som visuel reference. Den viser en rund blokvæg med adgangsåbning, lodrette stolper, en øvre rem af lige stykker og radiale tagspær ind mod en central åbning. Den er en konceptmodel; billedet dokumenterer ikke mål, samlinger eller bæreevne. Den eksisterende STEP-fil er tilgængelig som [Wallipini.stp](Wallipini.stp); sammenhængen mellem filens geometri og de fastlagte mål er endnu ikke kontrolleret.
+
+Følgende skal tegnes færdigt: blokkenes kileformede fuger og lukning ved udstøbning, vægafslutninger ved indgangen, forbindelse mellem sokkel og træ, remmens hjørnesamlinger samt understøtning og afstivning af tagets centrale ring. Trappens forløb er endnu ikke fastlagt. En ubrudt jordholdende ring med trappe indenfor er drøftet som alternativ til mockuppens åbning, ikke besluttet som erstatning.
+
+## Materialer og sektioner — drøftede muligheder
+
+### Blokvæg og fundament
+
+| Mulighed | Hvorfor den undersøges | Hvad der mangler |
+|---|---|---|
+| Betonfyldte fundablokke | Tilgængelige materialer og mulighed for sammenhængende betonvæg | Runding, fuger, fundament, armering og jordtryk |
+| Buede siloblokke | Buede udstøbningsblokke kan gøre rundingen enklere | Dokumenteret produkt til højst 3,50 m udvendigt; de fundne danske sortimenter starter ved Ø6 m |
+| Små brøndsten | Håndterbare dele til en opmuret ring | Egnet radius, samlinger og dokumenteret anvendelse som jordholdende væg |
+| Hele betonbrøndringe | Færdig rund form | Udvendige mål, vægt, løftegrej, adgang og egnethed til overbygningen |
+| Leca-blokke | Lavere vægt og bidrag til isolering | Opbygning mod jordtryk, afstivning og fugtsikring |
+
+Rionet er foreslået af brugeren i kombination med fundablokke. Net til en plade og stænger til en væg eller et ringfundament er forskellige opbygninger. Armeringens type og omfang skal vælges til den konkrete løsning. Tidligere generelle anbefalinger om armering er ikke en dimensionering; hverken uarmeret opmuring eller armerede fundablokke er endeligt valgt. Rundingen må ikke alene bruges som begrundelse for at undlade armering, især når ringen brydes ved indgangen.
+
+### Glas, stolper og dør
+
+- Brugeren ønsker 60 cm brede drivhusglas i vægsektionerne og en almindelig terrassedør eller lignende. Den konkrete rude og dør skal vælges efter faktiske mål.
+- 50 × 50 mm trykimprægnerede stolper er brugerens første forslag. 70 × 70 mm er drøftet som alternativ med mere plads til glaslister og samlinger; begge er udimensionerede forslag.
+- Arbejdsoverslaget er **14–15 vinduesfag og ét dørfag**, altså 15–16 fag samlet. Antallet er ikke fastlagt: det skal kontrolleres i en målsat plantegning med glasfals, overlap, stolper og dørens karm- og montagemål.
+- Omkredsen af en cirkel på Ø3,50 m er cirka 11,00 m. De lige sider i overbygningen skal placeres, så ydermål og areal fortsat overholder konceptet; omkredsen alene fastlægger ikke sektionerne.
+- Radiale tagfelter bliver kileformede. Rektangulære 60 cm ruder passer derfor ikke automatisk i taget; plademateriale, tilskæring eller anden taginddeling skal sammenlignes.
+- Træets placering over soklen, fugtadskillelse, forankring og udskiftelighed skal indgå i detaljerne.
+
+### Bund og vand
+
+Plan bund er et fast ønske. Belægningen kan stadig få et lille fald mod opsamling; fliser på egnet underlag er foreslået som en enklere mulighed end et helt støbt gulv. Intet gulvmateriale er valgt. Dræn ved væggens yderside, opsamlingsbrønd med dykpumpe og manuel backup indgår fortsat i undersøgelsen. Tag- og overfladevand, udløb, pumpesvigt og grundvand skal afklares samlet. Der er ikke fastsat drændimensioner eller udledningssted.
+
+## Næste konkrete afklaringer
+
+1. Målsæt mockuppen inden for Ø3,50 m udvendigt og cirka 75 cm færdig dybde. Kontroller også adgangens areal og ståhøjden over trappen.
+2. Find de konkrete 60 cm ruder og en egnet dør, gerne genbrug, og registrer mål før fagantallet låses.
+3. Spørg en blokproducent efter små, buede blokke til den ønskede diameter og jordholdende højde. Afklar, om diameteren opgives indvendigt, udvendigt eller ved væggens midte.
+4. Sammenlign pris og arbejde for buede blokke, tilpassede almindelige blokke og opmuret ring. Medregn fundament, fyldbeton, armering, levering og eventuelt løftegrej.
+5. Afklar jord, vand og adgangsåbning som grundlag for valg af væg, fundament og armering.
+
+Produktspor fra samtalen, som skal kontrolleres før bestilling:
+
+- [Skagen Beton: siloblokke](https://skagenbeton.dk/fundament/siloblokke) — fundet sortiment fra Ø6 m, ikke et bekræftet match til vores mål.
+- [Thisted Cementvarefabrik: sortiment 2025](https://tct.dk/media/bfcotjoq/tct-brochure-belaegning-2025-ex-u-priser.pdf) — siloblokke fra Ø6 m i det gennemgåede katalog.
+- [Kaas-Pandrup Beton: siloblokke](https://www.kp-beton.dk/products/siloblokke) — diameter ikke verificeret; produktsidens beskrivelse var uklar.
+- [IBF: brøndsten 26 × 10 × 10 cm](https://www.ibf.dk/professionel/26x10x10-cm-broendsten/284025-ALL-CUSTOMERS) — foreslået produkttype; egnethed til vores væg er ikke dokumenteret.
+- [IBF: brøndgods og brøndsten](https://www.ibf.dk/professionel/Produkter/Afloeb/OEvrige-produkter/) — produktgruppen beskrives til anvendelser uden krav til styrke og tæthed; produktnavnet er ikke i sig selv dokumentation for en støttemur.
+- [CMHA: runde blokvægge](https://www.cmha.org/resource/tek-05-10a/) — geometriske detaljer til inspiration, ikke dimensionering af vores væg.
+- [Byggevideo: støttemur af udstøbningsblokke](https://www.youtube.com/watch?v=o7fu1vM4BXw) — procesreference til en anden konstruktion, ikke mål og armeringsplan for dette projekt.
 
 ## Det skal projektet ende med
 
@@ -37,7 +90,7 @@ Første prototype skal afprøve grundidéen: et brugbart drivhus med adgang, lys
 
 **Opgaver**
 
-- Vælg ét konkret trampolinhul som udgangspunkt.
+- Brug det oplyste trampolinhul på cirka Ø4,20 m som udgangspunkt og kontroller målene på stedet.
 - Registrer form, mål ved top og bund, dybde, skråninger og plads omkring hullet.
 - Dokumenter med billeder og en enkel opmåling. Trampolinens nominelle størrelse må ikke stå alene som mål for hullet.
 - Registrer orientering, skygge fra bygninger og træer samt mulighed for at hæve taget over terræn.
@@ -123,7 +176,7 @@ Første prototype skal afprøve grundidéen: et brugbart drivhus med adgang, lys
 - Knyt erfaringer til den konkrete sektion og modelversion. Skeln mellem forslag, byggede løsninger og målte resultater.
 - Del kun geografiske oplysninger på det niveau, bidragyderen ønsker. Præcis privatadresse er ikke nødvendig.
 - Lad en anden person bruge materialet til at tilpasse en model og lave en indkøbsliste. Registrer, hvor vedkommende går i stå.
-- Vælg licens til model, vejledning og data før offentlig deling. Dokumenter rettigheder til eventuelle bidrag fra andre.
+- Projektet er offentligt på [GitHub](https://github.com/sorenfroststaal/walipini-greenhouse). Vælg en udtrykkelig licens til model, vejledning og data, så andre får klare vilkår for genbrug. Dokumenter rettigheder til eventuelle bidrag fra andre.
 - Brug Extrudas visuelle identitet fra https://extruda.dk/design-system/ til kommende illustrationer, vejledninger og en eventuel brugerflade.
 
 **Leverance:** En samlet pakke, som andre kan afprøve, med kendte begrænsninger og mulighed for at bidrage med erfaringer.
@@ -150,7 +203,7 @@ Budgettet skal skelne mellem kontant indkøb, genbrugsmaterialer og arbejdstid. 
 
 ## Første arbejdspakke
 
-1. Vælg og mål et konkret hul.
+1. Kontroller de oplyste mål på det konkrete hul.
 2. Lav billedserie og registrer orientering og skygge.
 3. Saml de første observationer om jord og vand.
 4. Lav en enkel snittegning med terræn, trappe, bede og tag.
